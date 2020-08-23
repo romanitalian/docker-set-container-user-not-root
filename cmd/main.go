@@ -17,5 +17,5 @@ func rootHandler(w http.ResponseWriter, req *http.Request) {
 func main() {
     http.HandleFunc("/", rootHandler)
     http.HandleFunc("/hello", helloHandler)
-    http.ListenAndServe(":8090", nil)
+    http.ListenAndServe(":8080", nil)
 }
