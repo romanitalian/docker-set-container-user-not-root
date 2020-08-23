@@ -1,10 +1,10 @@
-# docker-inner-user-img
+# docker-set-container-user-not-root
 
 
 
-> docker build -t docker-inner-user-img .
+> docker build -t docker-set-container-user-not-root .
 
-> docker run -d --rm -p 8080:8080 docker-inner-user-img
+> docker run -d --rm -p 8080:8080 docker-set-container-user-not-root
 
 > docker exec -it cac87206e253 /bin/bash
 
